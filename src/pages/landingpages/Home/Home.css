@@ -1,0 +1,18 @@
+.header {
+  color: var(--new-styles-text-heading, #292a29);
+  font-family: MADE Mellow PERSONAL USE;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 112.5% */
+}
+
+.body {
+  color: var(--new-styles-text-body-dark, #515251);
+  font-family: Aeonik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: 0.2px;
+}
