@@ -1,9 +1,36 @@
-.navbarcontainerwrapper{
-    height:80px
+.navbarcontainerwrapper {
+  height: 80px;
 }
 
-.logoimg{
-    height:40px; 
-    margin-top:10px;
-    margin-left:10px
+.logoimg {
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.botton {
+  width: 100%;
+  height: 56px;
+  padding: 16px 10px;
+  border-bottom: 0.8px solid var(--new-styles-grays-outline, #e7e8e7);
+  text-align: left;
+}
+
+.buttonSelected {
+background: var(--new-styles-primary-mint-light, #F6FAF2);
+}
+
+.buttonText {
+  color: var(--new-styles-text-body-dark, #515251);
+
+  /* Body/Normal/Medium */
+  font-family: Aeonik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.buttonTextSelected {
+  color: var(--new-styles-primary-eazi-green, #11453b);
 }

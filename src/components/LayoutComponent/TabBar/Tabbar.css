@@ -1,9 +1,17 @@
-.navbarcontainerwrapper{
-    height:80px
+.btn {
+  height: 60px;
 }
 
-.logoimg{
-    height:40px; 
-    margin-top:10px;
-    margin-left:10px
+.btnText {
+  color: var(--new-styles-text-body-normal, #8d8e8d);
+  font-family: Aeonik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+  border: 0px !important;
+}
+
+.btnTextSelected {
+  color: var(--new-styles-primary-eazi-green, #11453b);
 }
