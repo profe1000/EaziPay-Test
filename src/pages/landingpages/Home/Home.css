@@ -137,3 +137,16 @@
   font-weight: 400;
   line-height: 36px; /* 128.571% */
 }
+
+.sectionforeverfreeheader {
+  color: var(--new-styles-text-heading, #292a29);
+  font-family: MADE Mellow PERSONAL USE;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px; /* 114.286% */
+}
+
+.sectionforeverfreeheaderred {
+  color: var(--new-styles-secondary-strawberry, #ea4e4b);
+}
