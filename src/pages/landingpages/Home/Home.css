@@ -115,3 +115,25 @@
 .sectionbuisnessfooteremail {
   color: var(--new-styles-secondary-strawberry, #ea4e4b);
 }
+
+.sectionHowitworkHeader {
+  color: var(--new-styles-primary-eazi-green, #11453b);
+  text-align: center;
+  font-family: MADE Mellow PERSONAL USE;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 114.286% */
+}
+
+.sectionHowitworkcaption {
+  color: var(--new-styles-text-body-dark, #515251);
+  text-align: center;
+
+  /* Header/H2/Regular */
+  font-family: Aeonik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
+}
