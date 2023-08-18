@@ -7,10 +7,7 @@ export const Hero = () => {
       <div
         className="w3-col"
         style={{
-          background: `url(${
-            process.env.PUBLIC_URL + "/images/homedashboardgradient.svg"
-          })`,
-          backgroundColor: "white",
+         
           paddingTop: "50px",
         }}
       >

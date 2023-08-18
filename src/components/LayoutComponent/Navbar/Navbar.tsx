@@ -6,12 +6,6 @@ const Navbar = () => {
     <>
       <div
         className="w3-col navbarcontainerwrapper"
-        style={{
-          background: `url(${
-            process.env.PUBLIC_URL + "/images/homedashboardgradient.svg"
-          })`,
-          backgroundColor: "white",
-        }}
       >
         <div className="w3-content">
           <div className="w3-col l2 m6 s6">
