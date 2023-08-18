@@ -1,5 +1,6 @@
 import "./../Home.css";
 import { Link } from "react-router-dom";
+import SectionDemoForm from "./sectiondemoforms/sectiondemoform";
 
 export const SectionDemoForms = () => {
   return (
@@ -64,6 +65,10 @@ export const SectionDemoForms = () => {
                     Company
                   </span>
                 </Link>
+              </div>
+
+              <div>
+                <SectionDemoForm></SectionDemoForm>
               </div>
             </div>
           </div>

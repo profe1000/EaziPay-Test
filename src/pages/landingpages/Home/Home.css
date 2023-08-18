@@ -231,3 +231,26 @@
 .formButtonTextColorBlack {
   color: var(--new-styles-text-body-dark, #515251);
 }
+
+.submitButton {
+  width: 100%;
+  display: flex;
+  padding: 12px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 24px;
+  background: var(--new-styles-primary-eazi-green, #11453b);
+}
+
+.submitButtonText {
+  color: var(--new-styles-shades-white, #fff);
+
+  /* Button/Large */
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
