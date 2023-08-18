@@ -717,12 +717,15 @@ a {
   margin-right: -16px;
 }
 .w3-content,
-.w3-auto {
+.w3-auto,.w3-minicontent {
   margin-left: auto;
   margin-right: auto;
 }
 .w3-content {
   max-width: 1080px;
+}
+.w3-minicontent {
+  max-width: 510px;
 }
 .w3-auto {
   max-width: 1280px;

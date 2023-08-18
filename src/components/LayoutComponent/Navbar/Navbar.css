@@ -55,6 +55,7 @@
   border-radius: 24px;
   background: var(--new-styles-primary-eazi-green, #11453b);
   box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
+  margin-right: 20px;
   margin-bottom: 10px;
   display: inline-block;
   text-decoration: none;
