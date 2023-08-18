@@ -1,9 +1,73 @@
-.navbarcontainerwrapper{
-    height:80px
+.navbarcontainerwrapper {
+  min-height: 80px;
+  padding: 20px;
 }
 
-.logoimg{
-    height:40px; 
-    margin-top:10px;
-    margin-left:10px
+.link {
+  color: var(--new-styles-text-body-dark, #515251);
+  /* Body/Normal/Medium */
+  font-family: Aeonik;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration: none;
+  padding-right: 40px;
+}
+
+.linkwrapper {
+  padding-top: 10px;
+}
+
+.loginBtn {
+  width: 140px;
+  max-width: 100%;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  border: 1px solid var(--new-styles-primary-eazi-green, #11453b);
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.loginText {
+  color: var(--new-styles-primary-eazi-green, #11453b);
+  /* Button/Button */
+  font-family: Aeonik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.1px;
+}
+
+.registetBtn {
+  width: 140px;
+  max-width: 100%;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 24px;
+  background: var(--new-styles-primary-eazi-green, #11453b);
+  box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.registerText {
+  color: var(--new-styles-shades-white, #fff);
+
+  /* Button/Button */
+  font-family: Aeonik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.1px;
 }

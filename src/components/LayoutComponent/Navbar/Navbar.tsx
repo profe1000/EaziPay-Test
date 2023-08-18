@@ -4,35 +4,48 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div className="w3-col">
-        <div className="w3-card  w3-blue navbarcontainerwrapper">
-          <span> Nav Bar </span>
-        </div>
-        <div className="w3-col">
-          <Link
-            className="w3-btn w3-round w3-white w3-col l3 s3 m3 w3-border"
-            to="/"
-          >
-            Home
-          </Link>
-          <Link
-            className="w3-btn w3-round w3-white w3-col l3 s3 m3 w3-border"
-            to="/admin"
-          >
-            Admin Home
-          </Link>
-          <Link
-            className="w3-btn w3-round w3-white w3-col l3 s3 m3 w3-border"
-            to="/publisher"
-          >
-            Publisher Home
-          </Link>
-          <Link
-            className="w3-btn w3-round w3-white w3-col l3 s3 m3 w3-border"
-            to="/advertiser"
-          >
-            Advertiser Home
-          </Link>
+      <div
+        className="w3-col navbarcontainerwrapper"
+        style={{
+          background: `url(${
+            process.env.PUBLIC_URL + "/images/homedashboardgradient.svg"
+          })`,
+        }}
+      >
+        <div className="w3-content">
+          <div className="w3-col l2 m2 s6">
+            <img
+              style={{ maxWidth: "100%" }}
+              alt="logo"
+              src={process.env.PUBLIC_URL + "/images/logogreen.svg"}
+            />
+          </div>
+
+          <div className="w3-col l6 m6 s12 w3-hide-small">
+            <div className="linkwrapper">
+              <Link className="link" to="/">
+                Individual
+              </Link>
+              <Link className="link" to="/">
+                Business
+              </Link>
+              <Link className="link" to="/">
+                Pricing
+              </Link>
+              <Link className="link" to="/">
+                Set Up Your Payroll
+              </Link>
+            </div>
+          </div>
+
+          <div className="w3-col l4 m4 s6 w3-center">
+            <Link className="loginBtn" to="/">
+              <span className="loginText"> Login </span>
+            </Link>
+            <Link className="registetBtn" to="/">
+              <span className="registerText"> Register </span>
+            </Link>
+          </div>
         </div>
       </div>
     </>

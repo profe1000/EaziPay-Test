@@ -5,7 +5,7 @@ import { Result } from "antd";
 export const Hero = () => {
   return (
     <>
-      <div className=" w3-col w3-light-grey">
+      <div className="w3-col w3-light-grey">
         <h1 className="header"> Run your payroll easily in seconds</h1>
         <span className="body">
           We’ve built an all-inclusive simple solution for individual and
