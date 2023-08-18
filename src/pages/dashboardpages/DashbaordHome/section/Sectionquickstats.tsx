@@ -1,17 +1,20 @@
 import "./../DashboardHome.css";
-import { SmileOutlined } from "@ant-design/icons";
-import { Result } from "antd";
 
 export const SectionQuickStats = () => {
   return (
     <>
-      <div>
-        <Result
-          status="404"
-          icon={<SmileOutlined rev={undefined} />}
-          title="Admin Home Page "
-          subTitle="Please the patient our engineer is out work"
-        />
+      <div className="w3-col">
+        <div className="w3-col" style={{ padding: "50px" }}>
+          <div className="w3-col">
+            <h1> Welcome Abasiama</h1>
+            <p>Pay and manage your employee in minutes</p>
+          </div>
+
+          <div className="w3-col">
+            <h1> Welcome Abasiama</h1>
+            <p>Pay and manage your employee in minutes</p>
+          </div>
+        </div>
       </div>
     </>
   );
