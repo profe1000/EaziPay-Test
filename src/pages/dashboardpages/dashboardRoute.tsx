@@ -5,7 +5,7 @@ import Nopage from "../Nopage/Nopage";
 import DashboardLayout from "./DashboardLayout/DashboardLayout";
 import DashboardHome from "./DashbaordHome/DashboardHome";
 
-const AdminPagesRoute = () => {
+const DashboardPagesRoute = () => {
   return (
     <Routes>
       <Route path="/" element={<DashboardLayout />}>
@@ -16,4 +16,4 @@ const AdminPagesRoute = () => {
   );
 };
 
-export default AdminPagesRoute;
+export default DashboardPagesRoute;

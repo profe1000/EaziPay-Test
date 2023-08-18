@@ -1,0 +1,16 @@
+.sideMenu {
+  width: 250px;
+  height:100%;
+  position: fixed;
+}
+
+.content {
+  margin-bottom:60px;
+}
+
+.footerMenu {
+  position: fixed;
+  bottom: 0px;
+  height:60px;
+  width:100%;
+}
