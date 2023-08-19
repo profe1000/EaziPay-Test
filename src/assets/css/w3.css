@@ -727,7 +727,7 @@ a {
 }
 .w3-content,
 .w3-auto,
-.w3-minicontent {
+.w3-minicontent,.w3-dashcontent {
   margin-left: auto;
   margin-right: auto;
 }
@@ -736,6 +736,10 @@ a {
 }
 .w3-minicontent {
   max-width: 510px;
+}
+
+.w3-dashcontent {
+  max-width: 900px;
 }
 .w3-auto {
   max-width: 1280px;

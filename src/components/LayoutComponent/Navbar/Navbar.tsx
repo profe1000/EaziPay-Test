@@ -4,9 +4,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div
-        className="w3-col navbarcontainerwrapper"
-      >
+      <div className="w3-col navbarcontainerwrapper">
         <div className="w3-content">
           <div className="w3-col l2 m6 s6">
             <img
@@ -34,10 +32,10 @@ const Navbar = () => {
           </div>
 
           <div className="w3-col l4 m6 s6 w3-center">
-            <Link className="loginBtn" to="/">
+            <Link className="loginBtn" to="/dashboard">
               <span className="loginText"> Login </span>
             </Link>
-            <Link className="registetBtn" to="/">
+            <Link className="registetBtn" to="/dashboard">
               <span className="registerText"> Register </span>
             </Link>
           </div>

@@ -1,0 +1,176 @@
+.profileName {
+  color: var(--new-styles-text-heading, #292a29);
+
+  /* Header/H1/Bold */
+  font-family: Aeonik;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+}
+
+.profileSubName {
+  color: var(--new-styles-text-body-dark, #515251);
+
+  /* Body/Normal/Medium */
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.dashboardWalletCard {
+  min-height: 100px;
+  width: 100%;
+  background-color: #11453b;
+  border-radius: 20px;
+  padding: 50px 20px;
+}
+
+.walletBalanceText {
+  color: var(--new-styles-primary-mint, #d9ebcd);
+
+  /* Body/Normal/Medium */
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.amountText {
+  color: var(--new-styles-shades-white, #fff);
+  font-family: Aeonik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+
+.fundWalletBtn {
+  width: 160px;
+  max-width: 100%;
+  padding: 12px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background: var(--new-styles-primary-mint, #d9ebcd);
+  /* Elevations/Dark Mode/Dark 2 */
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.fundWalletBtnText {
+  color: var(--new-styles-primary-eazi-green, #11453b);
+
+  /* Button/Small */
+  font-family: Aeonik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.1px;
+}
+
+.iconButton {
+  width: 100%;
+  padding: 16px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 24px;
+  border: 1px solid var(--new-styles-grays-outline, #e7e8e7);
+  background: #fff;
+
+  /* Light Mode/Shadow (MD) */
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+}
+
+.iconButtonText {
+  color: var(--new-styles-text-body-dark, #515251);
+  text-align: center;
+
+  /* Body/Small/2/Medium */
+  font-family: Aeonik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.25px;
+}
+
+.nextPayRollCon {
+  padding: 8px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 16px 16px 0px 0px;
+  background: var(--new-styles-primary-mint, #d9ebcd);
+
+  /* Light Mode/Shadow (MD) */
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+}
+
+.nextPayrollText {
+  color: var(--new-styles-text-body-dark, #515251);
+  text-align: center;
+
+  /* Body/Normal/Bold */
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.dateCon {
+  min-height: 89px;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.dayText {
+  color: var(--new-styles-text-body-dark, #515251);
+
+  /* Caption/Small/Regular */
+  font-family: Aeonik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.dateText {
+  color: var(--new-styles-text-body-dark, #515251);
+
+  /* Sub Header/H5/Bold */
+  font-family: Aeonik-Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px; /* 133.333% */
+}
+
+.totalEmployeeText {
+  color: var(--new-styles-text-body-dark, #515251);
+
+  /* Body/Normal/Medium */
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.totalEmployeeNumber {
+  color: var(--new-styles-text-heading, #292a29);
+  font-family: Aeonik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}

@@ -3,6 +3,8 @@
 This is the link to the demo project
 https://azipay.web.app/
 
+https://azipay.web.app/dashboard
+
 ## Pages
 
 

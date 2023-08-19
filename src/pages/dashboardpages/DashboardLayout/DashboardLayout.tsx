@@ -2,6 +2,7 @@ import "./DashboardLayout.css";
 import { Outlet } from "react-router-dom";
 import Tabbar from "../../../components/LayoutComponent/TabBar/Tabbar";
 import SideBar from "../../../components/LayoutComponent/SideBar/Sidebar";
+import { TopBar } from "../../../components/LayoutComponent/TopBar/topBar";
 
 const DashboardLayout = () => {
   return (
@@ -12,8 +13,14 @@ const DashboardLayout = () => {
           <SideBar></SideBar>
         </div>
       </div>
+      <div className="w3-white w3-padding fixedHeader">
+        <TopBar></TopBar>
+      </div>
       <div className="w3-rest content">
         <Outlet />
+      </div>
+      <div className="w3-col w3-hide-large" style={{ height:"60px" }}>
+        <br />
       </div>
       <div className="w3-col w3-hide-large footerMenu">
         <Tabbar></Tabbar>
